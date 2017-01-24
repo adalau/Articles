@@ -1,0 +1,72 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{anyt}{anyt}
+    \entry{asness2013vm}{article}{}
+      \name{author}{3}{}{%
+        {{hash=32d35871c9586cf2451d4524f31af7a6}{Asness}{A\bibinitperiod}{Clifford\bibnamedelima S.}{C\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=24cba03d3c20533cda9ce6baa9a2958f}{Moskowitz}{M\bibinitperiod}{Tobias\bibnamedelima J.}{T\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=1c29007610b4a1424b471615619d125b}{Pedersen}{P\bibinitperiod}{Lasse}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c9a110d7535be8ce17414428b3e1e2f3}
+      \strng{fullhash}{c9a110d7535be8ce17414428b3e1e2f3}
+      \field{labelalpha}{AMP13}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Finance}
+      \field{number}{3}
+      \field{title}{Value and Momentum Everywhere}
+      \field{volume}{68}
+      \field{year}{2013}
+      \field{pages}{929\bibrangedash 985}
+      \range{pages}{57}
+      \verb{url}
+      \verb http://EconPapers.repec.org/RePEc:bla:jfinan:v:68:y:2013:i:3:p:929-985
+      \endverb
+    \endentry
+    \entry{ff2012svm}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e0832fed4ec25198e1ce7405eace842b}{Fama}{F\bibinitperiod}{Eugene\bibnamedelima F.}{E\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=b1a74cc448a8aad21e16a39051216bda}{French}{F\bibinitperiod}{Kenneth\bibnamedelima R.}{K\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c8b02eb53c097bf91100683f313eba5c}
+      \strng{fullhash}{c8b02eb53c097bf91100683f313eba5c}
+      \field{labelalpha}{FF12}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Financial Economics}
+      \field{number}{3}
+      \field{title}{{Size, value, and momentum in international stock returns}}
+      \field{volume}{105}
+      \field{year}{2012}
+      \field{pages}{457\bibrangedash 472}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.jfineco.2012.05
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

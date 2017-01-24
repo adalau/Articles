@@ -1,0 +1,66 @@
+\documentclass{article}
+
+% for choosing the proper font encoding
+\usepackage[T1]{fontenc}
+% for proper encoding
+\usepackage[utf8]{inputenc}
+% enhanced font Latin Modern
+\usepackage{lmodern}
+% multi-language support
+\usepackage[english]{babel}
+% for inline and display quotations.
+\usepackage[autostyle]{csquotes}
+
+% set the default 4 inches margin to be 1 inch
+\usepackage{fullpage}
+% for colorful link
+\usepackage[ocgcolorlinks,pdfusetitle]{hyperref}
+% for doi link
+\usepackage{doi}
+%
+\usepackage{filecontents}
+\begin{filecontents}{bib}
+@article{ff2012svm,
+  author={Fama, Eugene F. and French, Kenneth R.},
+  title={{Size, value, and momentum in international stock returns}},
+  journal={Journal of Financial Economics},
+  year=2012,
+  volume={105},
+  number={3},
+  pages={457-472},
+  month={},
+  doi={10.1016/j.jfineco.2012.05},
+}
+@article{asness2013vm,
+  title = {Value and Momentum Everywhere},
+  author = {Asness, Clifford S. and Moskowitz, Tobias J. and Pedersen, Lasse},
+  year = {2013},
+  journal = {Journal of Finance},
+  volume = {68},
+  number = {3},
+  pages = {929-985},
+  url = {http://EconPapers.repec.org/RePEc:bla:jfinan:v:68:y:2013:i:3:p:929-985}
+}
+\end{filecontents}
+% for back reference in bibliography
+\usepackage[style=alphabetic,citestyle=alphabetic,backend=biber,backref=true]{biblatex}
+\addbibresource{bib}
+\DeclareFieldFormat[inbook]{citetitle}{#1}
+\DeclareFieldFormat[inbook]{title}{#1}
+
+\begin{document}
+\title{Articles}
+\author{Ada Lau}
+\date{\today}
+\maketitle
+
+Fama and French look at stock returns due to size, value and momentum across 4 regions (North America, Europe, Japan, and Asia Pacific). Except for Japan, value
+premiums are larger for small stocks. There is no momentum anomaly in Japan. \cite{ff2012svm}. \\
+
+Asness et. al. find consistent value and momentum premia across 4 equity markets (United States, the United Kingdom, continental Europe, and Japan), as well as across asset classes (currency, government bond and commodity). There is a strong correlation structure among value and momentum strategies across asset classes.
+They find striking comovement across assets and a link to liquidity risk, and propose a Global Three-Factor Model to explain returns across asset classes. Another note is that a 50-50 combination of value momemtum perform significantly better and generate higher returns. \cite{asness2013vm}
+
+% bibliography
+\printbibliography
+\end{document}
+

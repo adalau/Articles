@@ -1,0 +1,17 @@
+[0] Config.pm:324> INFO - This is Biber 2.1
+[0] Config.pm:327> INFO - Logfile is 'Articles.blg'
+[40] biber-darwin:276> INFO - === Mon Jan 23, 2017, 22:44:59
+[40] Biber.pm:333> INFO - Reading 'Articles.bcf'
+[129] Biber.pm:645> INFO - Found 2 citekeys in bib section 0
+[145] Biber.pm:2977> INFO - Processing section 0
+[159] Biber.pm:3115> INFO - Looking for bibtex format file 'bib' for section 0
+[271] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
+[272] bibtex.pm:895> INFO - Found BibTeX data source './bib.tex'
+[320] Utils.pm:146> WARN - The field 'month' in entry 'ff2012svm' cannot be null, deleting it
+[347] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[347] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[347] Biber.pm:2854> INFO - Sorting list 'anyt' of type 'entry' with scheme 'anyt' and locale 'en-US'
+[347] Biber.pm:2858> INFO - No sort tailoring available for locale 'en-US'
+[349] bbl.pm:505> INFO - Writing 'Articles.bbl' with encoding 'UTF-8'
+[350] bbl.pm:596> INFO - Output to Articles.bbl
+[350] Biber.pm:106> INFO - WARNINGS: 1
